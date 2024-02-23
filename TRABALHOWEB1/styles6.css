@@ -1,0 +1,155 @@
+@font-face{
+    font-family: dying;
+    src: url(FONTEDYINGLIGHT/BEBAS/BebasNeue-Regular.otf);
+}
+@font-face {
+    font-family: fac;
+    src: url(FONTEDYINGLIGHT/EXTRA/intreb.ttf);
+}
+@font-face {
+    font-family: abra;
+    src: url(FONTEDYINGLIGHT/ABRADE/abrade.otf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html {
+    scroll-behavior: smooth;
+}
+header {
+    background-color: black;
+    width: 100%;
+}
+.casa1 {
+    position:absolute;
+    left: 0%;
+    padding: 50px;
+    top: -2%;
+}
+.container {
+    max-width: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 50px;
+}
+.menu a  {
+    font-family: fac;
+    width: 50%;                             
+    padding-right: 30px;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+.logo1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 100px;
+}
+.compre {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.compre p{
+    color: white;
+    position:absolute;
+    font-size: 32px;
+    font-family: fac;
+    text-align: center;
+    top: 44%;
+    padding-left: 56px;
+}
+.compre img{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.compre img:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+.titulo {
+    font-size: 30px;
+    font-family: fac;
+    color: white;
+    text-align: center;
+}
+.seta {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+#pag1 {
+    background-image: url(dl2_urban_jungle.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+#pag3 {
+    background-image: url(pag3back.jpg);
+    background-size: auto;
+    height: 100%;
+}
+.interface {
+    height: 100vh;
+}
+section {
+    height: 100vh;
+}
+ul {
+    list-style: none;
+    display: flex;
+    padding-right: 500px;
+}
+.gif {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px;
+    text-align: center;
+}
+.parkur h1 {
+    font-family: fac;
+    font-size: 30px;
+    color: white;
+    padding: 30px;
+}
+.parkur p {
+    font-family: abra;
+    font-size: 20px;
+    color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: -6%;
+}
+footer {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.767);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    bottom: 0;
+}
+
+.coluna {
+    width: 30%;
+}
+
+footer h3 {
+    font-size: 18px;
+    font-family: dying;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: dying;
+    color:rgba(255, 255, 255, 0.582);
+}

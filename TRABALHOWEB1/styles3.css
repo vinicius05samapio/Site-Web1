@@ -1,0 +1,101 @@
+@font-face{
+    font-family: dying;
+    src: url(FONTEDYINGLIGHT/BEBAS/BebasNeue-Regular.otf);
+}
+@font-face {
+    font-family: fac;
+    src: url(FONTEDYINGLIGHT/EXTRA/intreb.ttf);
+}
+@font-face {
+    font-family: abra;
+    src: url(FONTEDYINGLIGHT/ABRADE/abrade.otf);
+}
+body {
+    background-image: url(fundopag4.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    text-align: left;
+    text-align: right;
+}
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    background-color: black;
+    width: 100%;
+}
+.casa1 {
+    position:absolute;
+    left: 0%;
+    padding: 50px;
+    top: -2%;
+}
+.container {
+    max-width: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 50px;
+}
+.menu a  {
+    font-family: fac;
+    width: 50%;                             
+    padding-right: 30px;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+.caixa {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 270px;
+    position: relative;
+    margin-bottom: 32%;
+}
+.texto h1 {
+    font-family: fac;
+    font-size: 30px;
+    color: white;
+}
+.texto p {
+    font-family: abra;
+    font-size: large;
+    color: white;
+}
+.texto {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    text-align: justify;
+}
+
+footer {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.767);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    bottom: 0;
+}
+
+.coluna {
+    width: 30%;
+}
+
+footer h3 {
+    font-size: 18px;
+    font-family: dying;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: dying;
+    color:rgba(255, 255, 255, 0.582);
+}

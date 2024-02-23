@@ -1,0 +1,115 @@
+@font-face{
+    font-family: dying;
+    src: url(FONTEDYINGLIGHT/BEBAS/BebasNeue-Regular.otf);
+}
+@font-face {
+    font-family: fac;
+    src: url(FONTEDYINGLIGHT/EXTRA/intreb.ttf);
+}
+@font-face {
+    font-family: abra;
+    src: url(FONTEDYINGLIGHT/ABRADE/abrade.otf);
+}
+body {
+    background-image: url(papel\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    background-color: black;
+    width: 100%;
+}
+.casa1 {
+    position:absolute;
+    left: 0%;
+    padding: 50px;
+    top: -2%;
+}
+.container {
+    max-width: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 50px;
+}
+.menu a  {
+    font-family: fac;
+    width: 50%;                             
+    padding-right: 30px;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+
+.caixa {
+    padding-top: 90px;
+    padding-left: 200px;
+    margin-bottom: 200px;
+}
+.teste {
+    margin: auto;
+    font-family: fac;
+    padding-top: 50px;
+}
+.compra h1 {
+    font-family: fac;
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+.compra a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: abra;
+    color: white;
+    text-align: center;
+    background-color: red;
+    cursor: pointer;
+    transition: background .6s;
+    border-radius: 10px;
+    padding: 3px 30px 3px 30px;
+    margin-right: 20px;
+}
+.compra a:hover {
+    background-color: rgb(202, 0, 0);
+}
+.compra a:active {
+    background-color: rgb(131, 0, 0);
+}
+p1 {
+    font-size: 13px;
+}
+p2 {
+    font-size: 20px;
+}
+
+footer {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.767);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    bottom: 0;
+}
+
+.coluna {
+    width: 30%;
+}
+
+footer h3 {
+    font-size: 18px;
+    font-family: dying;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: dying;
+    color:rgba(255, 255, 255, 0.582);
+}

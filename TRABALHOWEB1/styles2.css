@@ -1,0 +1,135 @@
+@font-face{
+    font-family: dying;
+    src: url(FONTEDYINGLIGHT/BEBAS/BebasNeue-Regular.otf);
+}
+@font-face {
+    font-family: fac;
+    src: url(FONTEDYINGLIGHT/EXTRA/intreb.ttf);
+}
+@font-face {
+    font-family: abra;
+    src: url(FONTEDYINGLIGHT/ABRADE/abrade.otf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+#pag1 {
+    background-image: url(fundopag3.jpg);
+    height: 100vh;
+}
+#pag2 {
+    background-image: url(fundo3.jpg);
+    height: 100vh;
+}
+header {
+    background-color: black;
+    width: 100%;
+}
+.casa1 {
+    position:absolute;
+    left: 0%;
+    padding: 50px;
+    top: -2%;
+}
+.container {
+    max-width: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 50px;
+}
+.menu a  {
+    font-family: fac;
+    width: 50%;                             
+    padding-right: 30px;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+.caixa h1 {
+    font-family: fac;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 10px;
+}
+.caixa p{
+    font-family: abra;
+    font-size: large;
+    color: white;
+}
+.caixa img {
+    padding-bottom: 30px;
+}
+.caixa {
+    display: flex;
+    padding: 200px;
+}
+.texto1 {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    text-align: justify;
+}
+.seta {
+    display: flex;
+    justify-content: center;
+    padding-top: 19%;
+}
+.video {
+    display: flex;
+    justify-content: right;
+    padding: 200px;
+    margin-bottom: 500px;
+}
+
+.video h1 {
+    font-family: fac;
+    font-size: 30px;
+    color:white;
+    padding-bottom: 10px;
+}
+.video p{
+    font-family: abra;
+    font-size: large;
+    color:white;
+}
+.texto2 {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    text-align: justify;
+}
+
+footer {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.767);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    bottom: 0;
+}
+
+.coluna {
+    width: 30%;
+}
+
+footer h3 {
+    font-size: 18px;
+    font-family: dying;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: dying;
+    color:rgba(255, 255, 255, 0.582);
+}

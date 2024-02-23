@@ -1,0 +1,44 @@
+@font-face {
+    font-family: abra;
+    src: url(FONTEDYINGLIGHT/ABRADE/abrade.otf);
+}
+body {
+    background-image: url(fundopag6.png);
+    background-repeat: no-repeat;
+}
+.main{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 100px;
+flex-direction: column;
+background-color: rgba(0, 0, 0, 0.61);
+margin-top: 80px;
+margin-bottom: 100px;
+}
+.text{
+    font-size: 45px;
+    color: white;
+    font-family: abra;
+}
+.paragrafo{
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-family: abra;
+}
+.btn{
+    padding: 15px 55px;
+    background: red;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(202, 0, 0);
+}
+.btn:active {
+    background-color: rgb(131, 0, 0);
+}
